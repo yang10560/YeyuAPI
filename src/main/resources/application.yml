@@ -1,0 +1,19 @@
+server:
+  #服务端端口
+  port: 8088
+
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+
+  # freemarker config
+  freemarker:
+    template-loader-path: classpath:/templates/
+    charset: UTF-8
+    suffix: .html
+    content-type: text/html
+    cache: false
+    enabled: true
+  mvc:
+    static-path-pattern: /static/**
