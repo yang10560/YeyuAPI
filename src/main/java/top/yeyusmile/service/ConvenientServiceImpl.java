@@ -24,17 +24,17 @@ import java.util.Map;
 @Service
 public class ConvenientServiceImpl implements ConvenientService {
 
-
-
-    @Override
-    public HistoryTody historyToday() {
-        //this.myQQMessage = message;
-        String url = "https://api.heroa.cn:3403/convenience/history_today/";
-
-        HistoryTody historyTody = new Gson().fromJson(HttpUtil.doHttpsGet(url), HistoryTody.class);
-        return historyTody;
-    }
 }
+//
+//    @Override
+//    public HistoryTody historyToday() {
+//        //this.myQQMessage = message;
+//        String url = "https://api.heroa.cn:3403/convenience/history_today/";
+//
+//        HistoryTody historyTody = new Gson().fromJson(HttpUtil.doHttpsGet(url), HistoryTody.class);
+//        return historyTody;
+//    }
+//}
 //        HttpUtil.sendHttps(url, new Callback() {
 //            @Override
 //            public void onFailure(Call call, IOException e) {

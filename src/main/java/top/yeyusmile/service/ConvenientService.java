@@ -1,6 +1,5 @@
 package top.yeyusmile.service;
 
-import top.yeyusmile.pojo.HistoryTody;
 
 /**
  * 便民服务
@@ -16,7 +15,7 @@ public interface ConvenientService {
      * https://api.heroa.cn:3403/convenience/history_today/
      */
 
-    HistoryTody historyToday();
+ //   HistoryTody historyToday();
 
 }
 //

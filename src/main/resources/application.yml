@@ -17,3 +17,9 @@ spring:
     enabled: true
   mvc:
     static-path-pattern: /static/**
+#  resources:
+#    static-locations:
+#      - classpath:/static
+#      - classpath:/public
+#      - classpath:/resources
+#      - classpath:/META-INF/resources

@@ -11,8 +11,8 @@ public class IndexController {
 
     @GetMapping
     public String hello(Model model) {
-        model.addAttribute("msg", "springboot集成thymeleaf");
-        return "docs";
+       // model.addAttribute("msg", "springboot集成thymeleaf");
+        return "doc";
     }
 
 }
